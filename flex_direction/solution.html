@@ -5,9 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Flex Direction</title>
-
   <style>
-
     .container {
       color: white;
       border: 5px solid gold;
@@ -15,22 +13,37 @@
       flex-direction: column;
     }
 
-    .container *{
+    .container > * {
       flex-basis: 100px;
     }
 
-    /*
-Select all the elements that are the direct
-children of the .container class.
-    */
+    .red {
+      background-color: #eb4d4b;
+    }
 
-    .red {background-color: #eb4d4b;}
-    .orange {background-color: #f0932b;}
-    .yellow {background-color: #f6e58d;}
-    .green {background-color: #6ab04c;}
-    .blue {background-color: #4834d4;}
-    .indigo {background-color: #30336b;}
-    .purple {background-color: #be2edd;}
+    .orange {
+      background-color: #f0932b;
+    }
+
+    .yellow {
+      background-color: #f6e58d;
+    }
+
+    .green {
+      background-color: #6ab04c;
+    }
+
+    .blue {
+      background-color: #4834d4;
+    }
+
+    .indigo {
+      background-color: #30336b;
+    }
+
+    .purple {
+      background-color: #be2edd;
+    }
   </style>
 </head>
 
@@ -44,7 +57,6 @@ children of the .container class.
     <div class="indigo">Indigo</div>
     <div class="purple">Purple</div>
   </div>
-  
 </body>
 
 </html>
